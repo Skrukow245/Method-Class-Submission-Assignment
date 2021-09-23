@@ -3,9 +3,9 @@
 
 public class Math
 {
-    public void Add(int input1, int input2, out int result)
+    public void Add(int input1, int input2)
     {
-        result = input2;
+        int result = input1 + 4;
     }
 }
 

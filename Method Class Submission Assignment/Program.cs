@@ -10,9 +10,8 @@ class Program
         var addition = new Math();
         int input1 = 5;
         int input2 = 4;
-        int result;
-        addition.Add(input1, input2, out result);
-        Console.WriteLine(result);
+        addition.Add(input1, input2);
+        Console.WriteLine(input2);
         Console.ReadLine();
     }
 
